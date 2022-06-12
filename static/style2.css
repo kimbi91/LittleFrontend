@@ -1,0 +1,27 @@
+@import "fontsAndColors.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* sample how to use fonts from fontsAndColors.css */
+    font-family: 'JetBrains Mono', monospace;
+}
+
+a {
+    /* sample how to use colors from fontsAndColors.css */
+    color: var(--sample_pink);
+}
+
+#container {
+}
+
+#menu {
+}
+
+#content {
+}
+
+.active {
+}

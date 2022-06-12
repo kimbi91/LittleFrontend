@@ -1,0 +1,8 @@
+/* sample Font from GoogleFonts */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap'); /*font-family: 'JetBrains Mono', monospace;*/
+
+:root {
+    --sample_black: #000000;
+    --sample_white: #FFFFFF;
+    --sample_pink: #FF00E1;
+}
