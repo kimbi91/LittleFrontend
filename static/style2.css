@@ -1,9 +1,5 @@
 @import "fontsAndColors.css";
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     /* sample how to use fonts from fontsAndColors.css */
     font-family: 'JetBrains Mono', monospace;
@@ -23,5 +19,17 @@ a {
 #content {
 }
 
+.button {
+}
+
+.menu_button {
+}
+
 .active {
+}
+
+.inactive {
+}
+
+.comment {
 }
