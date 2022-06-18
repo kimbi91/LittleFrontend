@@ -1,9 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 
 :root {
     --black: #000000;
     --white: #ffffff;
     --red: #BA1717;
     
+    --blackish: #181F27;
+    --whiteish: #F3F3E3;
+    --purple: #9859C4;
+    --light_purple: #CA86F8;
 }

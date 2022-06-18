@@ -1,35 +1,81 @@
 @import "fontsAndColors.css";
 
 body {
-    /* sample how to use fonts from fontsAndColors.css */
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Hubballi', cursive;
+    display: block;
+    background-color: var(--blackish);
+    color: var(--whiteish);
 }
 
 a {
-    /* sample how to use colors from fontsAndColors.css */
-    color: var(--sample_pink);
+    color: var(--purple);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--light_purple);
 }
 
 #container {
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 #menu {
+    display: block;
+    margin: 30px 30px 0 30px;
 }
 
 #content {
+    font-size: 1.2em;
 }
 
 .button {
+    background-color: var(--purple);
+    color: var(--blackish);
+    margin: 0;
+    padding: 10px 0;
+    min-width: 100px;
+    max-width: 150px;
+    text-align: center;
+    font-size: 0.9em;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button:hover {
+    background-color: var(--light_purple);
 }
 
 .menu_button {
+    text-decoration: none;
+    background-color: var(--purple);
+    margin: 2px;
+    padding: 10px 0;
+    min-width: 100px;
+    max-width: 150px;
+    display: block;
+    text-align: center;
+    border-radius: 25px;
 }
 
 .active {
+    font-weight: bold;
+    color: var(--whiteish);
 }
 
 .inactive {
+    color: var(--blackish);
+}
+
+.inactive:hover {
+    background-color: var(--light_purple);
+    color: var(--blackish);
 }
 
 .comment {
+    font-size: 0.75em;
+    font-style: italic;
 }
