@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Oswald', sans-serif;
-    display: block;
     background-color: var(--black);
     color: var(--white);
 }

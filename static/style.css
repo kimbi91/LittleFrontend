@@ -1,35 +1,79 @@
 @import "fontsAndColors.css";
 
 body {
-    /* sample how to use fonts from fontsAndColors.css */
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: var(--black);
+    color: var(--red);
 }
 
 a {
-    /* sample how to use colors from fontsAndColors.css */
-    color: var(--sample_pink);
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #container {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 2rem;
 }
 
 #menu {
+    display: flex;
+    justify-content: center;
 }
 
 #content {
+    display: block;
+    padding: 0 20px;
+    border-top: var(--purple) solid 1px;
+    line-height: 1.5rem;
 }
 
 .button {
+    background-color: var(--red);
+    color: var(--black);
+    margin: 0;
+    padding: 10px 0;
+    min-width: 100px;
+    max-width: 150px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background-color: var(--white);
+    color: var(--red);
 }
 
 .menu_button {
+    margin-left: 50px;
 }
 
 .active {
+    color: var(--red);
+    font-weight: bolder;
 }
 
 .inactive {
+    color: var(--white);
+}
+
+.inactive:hover {
+    text-decoration: none;
+    color: var(--purple);
 }
 
 .comment {
+    font-size: 0.85em;
+    font-style: italic;
 }
