@@ -46,6 +46,11 @@ a:hover {
     border-radius: 10px 10px 10px 10px;
 }
 
+.button:hover {
+    background-color: var(--white);
+    color: var(--red);
+}
+
 .menu_button {
     text-decoration: none;
     margin: 0px;
