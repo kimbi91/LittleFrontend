@@ -1,35 +1,78 @@
 @import "fontsAndColors.css";
 
 body {
-    /* sample how to use fonts from fontsAndColors.css */
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 a {
-    /* sample how to use colors from fontsAndColors.css */
-    color: var(--sample_pink);
+    color: var(--red);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #container {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 #menu {
+    display: flex;
+    justify-content: center;
 }
 
 #content {
+    border-top: var(--white) solid 1px;
 }
 
 .button {
+    background-color: var(--red);
+    margin: 0;
+    padding: 10px 0;
+    min-width: 100px;
+    max-width: 150px;
+    text-align: center;
+    font-size: 0.9em;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .menu_button {
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px 0;
+    min-width: 100px;
+    max-width: 150px;
+    display: block;
+    text-align: center;
 }
 
 .active {
+    background-color: var(--black);
+    color: var(--red);
+    border: var(--white) solid 1px;
 }
 
 .inactive {
+    background-color: var(--red);
+    color: var(--black);
+    border: var(--black) solid 1px;
+}
+
+.inactive:hover {
+    background-color: var(--black);
+    color: var(--white);
+    text-decoration: none;
 }
 
 .comment {
+    font-style: italic;
 }
